@@ -19,12 +19,12 @@
     </style>
 </head>
 
-<body>
+<body id="bodyId">
     <!-- START OF MODAL -->
-    <div id="modal_container" class="modal">
+    <div id="booking_container" class="modal">
         <div>
             <!-- CLOSING  BUTTON -->
-            <span id="modal_close" onclick="closeModal('modal_container')" title="CLOSE THIS IMAGE">&times;</span>
+            <span id="modal_close" onclick="closeModal('booking_container')" title="CLOSE THIS IMAGE">&times;</span>
 
 
             <div id="modalContent">
@@ -119,8 +119,8 @@
 
 
 
-            <span class="Cookie_button_ok" onclick="closeModal('Cookie_container')">All</span>
-            <span class="Cookie_button_no" onclick="closeModal('Cookie_container')">Selected</span>
+            <span class="Cookie_button_all" onclick="closeModal('Cookie_container')">All</span>
+            <span class="Cookie_button_selected" onclick="closeModal('Cookie_container')">Selected</span>
 
 
 
@@ -152,7 +152,7 @@
             <ul>
                 <li><a href="#" onclick="displayModal('signIn_container')">SignIn</a></li>
 
-                <li><a href="#" onclick="displayModal('modal_container')">Book Table</a></li>
+                <li><a href="#" onclick="displayModal('booking_container')">Book Table</a></li>
 
             </ul>
         </nav>

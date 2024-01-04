@@ -192,3 +192,7 @@ section article p {
     gap: 1rem;
   }
 }
+
+.noScroll{
+  overflow: hidden;
+}
