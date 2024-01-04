@@ -15,17 +15,15 @@ imageIndex.forEach((i) =>{
     const p1 = document.createElement('p');
     const p2 = document.createElement('p');
 
-    h3.textContent = `Gallery ${i}`;
-    p1.textContent = 'Hic alias laborum nesciunt ipsa, quidem aut fugit similique beatae, vero ullam eum suscipit assumenda fugiat pariatur optio repudiandae laboriosam eos expedita.';
-    p2.textContent = 'Dolor nesciunt architecto harum vero? Eos labore iste illo, dignissimos odio voluptates pariatur eum aliquam aperiam ipsam eveniet animi, quod, fugiat beatae.';
+    h3.innerText = `Gallery ${i}`;
+    p1.innerText = 'Hic alias laborum nesciunt ipsa, quidem aut fugit similique beatae, vero ullam eum suscipit assumenda fugiat pariatur optio repudiandae laboriosam eos expedita.';
+    p2.innerText = 'Dolor nesciunt architecto harum vero? Eos labore iste illo, dignissimos odio voluptates pariatur eum aliquam aperiam ipsam eveniet animi, quod, fugiat beatae.';
 
     article.appendChild(h3);
     article.appendChild(p1);
     article.appendChild(p2);
     figcaption.appendChild(article);
-
     figure.appendChild(image);
     figure.appendChild(figcaption);
-
     gallery.appendChild(figure);
 })
